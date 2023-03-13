@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "cnr";
+    src: url('../fonts/cnr.otf');
+}
+
+body {
+    margin: 0;
+    font-family: "cnr";
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 82, 47);
+    border-bottom: 2px solid rgb(55, 163, 95);
+    overflow: hidden;
+}
+
+.navbar {
+    color: #fff;
+    display: block;
+}
+
+.navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    transition: .5s;
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: rgb(55, 163, 95);
+    transition: .5s;
+}
+
+.name {
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
+    display: block;
+    font-weight: bold;
+}
+
+.m-left {
+    margin-left: 25px;
+}
+
+.m-right {
+    margin-right: 25px;
+}
+
+.articles {
+    background-color: #eee;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-content {
+    text-indent: 32px;
+    padding: 12px;
+}
+
+.project-tags {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-tag {
+    border: 1px solid #1b522f;
+    display: inline;
+    border-radius: 5px;
+    padding: 4px;
+    color: #eee;
+    background-color: #37a35f;
+}
+
+.cv-btn {
+    padding: 14px;
+    background-color: #37a35f;
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #1b522f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+
+.cv-btn:hover {
+    background-color: #1b522f;
+    transition: 0.25s;
+}
+
+.project-imgs {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-img {
+    max-width: 25%;
+    border: 1px solid #1b522f;
+    border-radius: 5px;
+}
+
+.bottom-section {
+    padding-bottom: 10px;
+}
