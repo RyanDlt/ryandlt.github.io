@@ -98,12 +98,10 @@ section {
     background-color: #37a35f;
 }
 
-.cv-btn {
+.btn {
     padding: 14px;
     background-color: #37a35f;
-    display: block;
-    width: 100px;
-    text-align: center;
+    width: fit-content;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -114,10 +112,13 @@ section {
     margin-right: auto;
     transition: 0.25s;
     border-radius: 5px;
+    text-indent: 0;
+    text-align: center;
 }
 
-.cv-btn:hover {
+.btn:hover {
     background-color: #1b522f;
+    color: #fff;
     transition: 0.25s;
 }
 
@@ -135,4 +136,15 @@ section {
 
 .bottom-section {
     padding-bottom: 10px;
+}
+
+a {
+    color: #37a35f;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(27, 82, 47);
+    transition: 0.5s;
 }
